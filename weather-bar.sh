@@ -10,16 +10,16 @@ humidity=$(echo "$weather" | grep -oE '[0-9]+%')
 
 # Seleccionar el icono adecuado según la condición meteorológica
 case $condition in
-  "Clear"*) icon="\ue305";;
-  "Partly cloudy"*) icon="\uf002";;
-  "Cloudy"*) icon="\uf041";;
-  "Mist"*) icon="\uf74e";;
-  "Fog"*) icon="\uf74e";;
-  "Light rain"*) icon="\ue009";;
-  "Moderate rain"*) icon="\ue009";;
-  "Heavy rain"*) icon="\uf02d";;
-  "Overcast"*) icon="\uf041";;
-  *) icon="❗";;
+  "Clear"*) icon="";;
+  "Partly cloudy"*) icon="";;
+  "Cloudy"*) icon="";;
+  "Mist"*) icon="";;
+  "Fog"*) icon="";;
+  "Light rain"*) icon="";;
+  "Moderate rain"*) icon="";;
+  "Heavy rain"*) icon="";;
+  "Overcast"*) icon="";;
+  *) icon="";;
 esac
 
 # Imprimir la información del clima
