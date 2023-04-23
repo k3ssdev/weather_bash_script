@@ -10,11 +10,13 @@ This script obtains weather information from wttr.in and displays it in the form
 2. Make the script executable: `chmod +x ~/.config/polybar/scripts/weather-bar.sh`.
 3. Add a new module to your Polybar configuration file `config`:
 
+```
 [module/weather]
 type = custom/script
 interval = 900
 exec = ~/.config/polybar/scripts/weather-bar.sh
 label-font = 4
+```
 
 4. Restart your Polybar to see the weather information.
 
