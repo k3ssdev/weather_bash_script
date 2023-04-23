@@ -15,14 +15,13 @@ This script obtains weather information from [wttr.in](https://wttr.in/) and dis
 type = custom/script
 interval = 900
 exec = ~/.config/polybar/scripts/weather-bar.sh
-font-0 = "Font Awesome 5 Free Solid:size=10;1"
+label-font = 2
 ```
 
 4. Restart your Polybar to see the weather information.
 
 **Customization**
 - `label-font`: controls the font size of the label.
-- `content-font`: controls the font size of the weather information.
 
 To use different icons, modify the case statement in the script to assign the appropriate Unicode value to the `icon` variable for each weather condition. You can find the Unicode values for icons in the Unicode character table.
 
