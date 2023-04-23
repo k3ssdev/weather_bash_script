@@ -15,7 +15,15 @@ This script obtains weather information from [wttr.in](https://wttr.in/) and dis
 type = custom/script
 interval = 900
 exec = ~/.config/bspwm/polybar/scripts/weather-bar.sh
-label-font = 2
+
+label-foreground = ${color.GREEN}
+label-background = ${color.BACKGROUND}
+label-padding = 2
+format = <label>
+label = %output%
+format-foreground = ${color.GREEN}
+format-background = ${color.BACKGROUND}
+label-font = 1
 ```
 
 4. Restart your Polybar to see the weather information.
