@@ -29,7 +29,8 @@ To use a different weather API or modify the information displayed, modify the `
 
 **Screenshot**
 
-![image](https://user-images.githubusercontent.com/63558530/233858697-ba2576c9-ccef-4c85-ae42-7512796fa259.png)
+![image](https://user-images.githubusercontent.com/63558530/233858744-f108ea07-6468-4b99-8c79-6f69056c054f.png)
+
 
 
 ## Acknowledgments
