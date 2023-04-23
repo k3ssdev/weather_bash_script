@@ -16,11 +16,13 @@ type = custom/script
 interval = 900
 exec = ~/.config/bspwm/polybar/scripts/weather-bar.sh
 
+format = <label>
+label = %output%
+
 label-foreground = ${color.GREEN}
 label-background = ${color.BACKGROUND}
 label-padding = 2
-format = <label>
-label = %output%
+
 format-foreground = ${color.GREEN}
 format-background = ${color.BACKGROUND}
 label-font = 1
