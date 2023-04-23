@@ -1,4 +1,4 @@
-#Weather Bar Script
+# Weather Bar Script
 
 This script obtains weather information from wttr.in and displays it in the format icon condition temperature humidity.
 
