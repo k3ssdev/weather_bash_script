@@ -6,15 +6,15 @@ This script obtains weather information from [wttr.in](https://wttr.in/) and dis
 - curl: required to retrieve weather information from [wttr.in](https://wttr.in/).
 
 **Usage**
-1. Place the script in a convenient location, such as `~/.config/polybar/scripts/weather-bar.sh`.
-2. Make the script executable: `chmod +x ~/.config/polybar/scripts/weather-bar.sh`.
+1. Place the script in a convenient location, such as `~/.config/bspwm/polybar/scripts/weather-bar.sh`.
+2. Make the script executable: `chmod +x ~/.config/bspwm/polybar/scripts/weather-bar.sh`.
 3. Add a new module to your Polybar configuration file `config`:
 
 ```
 [module/weather]
 type = custom/script
 interval = 900
-exec = ~/.config/polybar/scripts/weather-bar.sh
+exec = ~/.config/bspwm/polybar/scripts/weather-bar.sh
 label-font = 2
 ```
 
