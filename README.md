@@ -26,3 +26,7 @@ label-font = 2
 To use different icons, modify the case statement in the script to assign the appropriate Unicode value to the `icon` variable for each weather condition. You can find the Unicode values for icons in the Unicode character table.
 
 To use a different weather API or modify the information displayed, modify the `curl` request in the script accordingly.
+
+## Acknowledgments
+
+This script uses weather information from [wttr.in](https://github.com/chubin/wttr.in). We are grateful for the developers and contributors to this fantastic project.
