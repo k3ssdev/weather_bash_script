@@ -27,6 +27,10 @@ To use different icons, modify the case statement in the script to assign the ap
 
 To use a different weather API or modify the information displayed, modify the `curl` request in the script accordingly.
 
+**Screenshot**
+![image](https://user-images.githubusercontent.com/63558530/233858697-ba2576c9-ccef-4c85-ae42-7512796fa259.png)
+
+
 ## Acknowledgments
 
 This script uses weather information from [wttr.in](https://github.com/chubin/wttr.in). We are grateful for the developers and contributors to this fantastic project.
