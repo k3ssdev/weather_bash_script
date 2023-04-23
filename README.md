@@ -15,7 +15,7 @@ This script obtains weather information from [wttr.in](https://wttr.in/) and dis
 type = custom/script
 interval = 900
 exec = ~/.config/polybar/scripts/weather-bar.sh
-label-font = 4
+font-0 = "Font Awesome 5 Free Solid:size=10;1"
 ```
 
 4. Restart your Polybar to see the weather information.
