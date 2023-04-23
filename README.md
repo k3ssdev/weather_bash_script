@@ -1,9 +1,9 @@
 # Weather Bar Script
 
-This script obtains weather information from wttr.in and displays it in the format icon condition temperature humidity.
+This script obtains weather information from [wttr.in](https://wttr.in/) and displays it in the format icon condition temperature humidity.
 
 **Dependencies**
-- curl: required to retrieve weather information from wttr.in.
+- curl: required to retrieve weather information from [wttr.in](https://wttr.in/).
 
 **Usage**
 1. Place the script in a convenient location, such as `~/.config/polybar/scripts/weather-bar.sh`.
